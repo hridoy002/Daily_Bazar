@@ -23,9 +23,13 @@ const Blogs = () => {
             </div>
             <div class="w-3/4  overflow-hidden shadow-lg">
                     <div class="px-6 py-4">
-                        <div class="font-bold text-xl mb-2 my-5">What is semantic element?</div>
+                        <div class="font-bold text-xl mb-2 my-5">What is inline,block and inline-block element?</div>
                             <p class="text-gray-700 font-semibold text-base">
-                                Semantic element or tag is a html element.A semantic element describe clearly about its meaning.To see a Semantic tag browser or Developer both are easily understand ,Why it has been used.There are some semantic elements example:["header","main","form","table",] .They  can be used to define different parts of a web page.
+                                Inline Element:Inline element is a html element, this types of elements take space besides its boundary.Generaly,it take space according to its quantity.
+
+                                Block Element: Block element also a HTML elements.This types of elements take  full horizontal space,and vertically according its size.
+
+                                Inline-Block Element: This types of element behave like a inline element but also allow block properties.
                             </p>
                     </div>
             </div>
