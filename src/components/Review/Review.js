@@ -23,3 +23,5 @@ const Review = (props) => {
 };
 
 export default Review;
+
+// private to public 
