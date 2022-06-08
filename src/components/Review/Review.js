@@ -3,7 +3,7 @@ import React from 'react';
 const Review = (props) => {
     const { name, thumbnailUrl,comment } = props.data;
     return (
-        <div className=''>
+        <div className='col'>
             <div className='md:max-w-sm m-10 bg-sky-200 text-lg text-black font-semibold rounded-md p-5'>
                 <div className='flex'>
                     <img src={thumbnailUrl} className="w-8 rounded-lg " alt="" srcset="" />

@@ -10,7 +10,7 @@ const Reviews = () => {
        .then(data => setReviews(data))
    },[])
     return (
-        <div>
+        <div className='row align-items-start'>
             {
                 reviews.map(review => <Review key={review.id} data={review}></Review>)
             }

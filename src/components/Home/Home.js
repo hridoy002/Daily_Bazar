@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import Reviews from '../../Reviews/Reviews';
 import HomeReview from '../HomeReview/HomeReview';
 import Review from '../Review/Review';
+import banner from '../../image/product.jpg'
 
 const Home = () => {
 
@@ -41,7 +42,7 @@ const Home = () => {
                 </div>
 
                 <div>
-                    <img src="../../image/product.jpg" class="max-w-full h-auto" alt="..." />
+                    <img src={banner} class="max-w-full h-auto" alt="..." />
                 </div>
             </div>
 
